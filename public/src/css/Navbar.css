@@ -1,0 +1,263 @@
+@import '~antd/dist/antd.css';
+/* @import '~antd/lib/style/core/index.less'; */
+
+.menuBar{
+  padding: 0px 20px;
+  /* border-bottom: solid 1px #e8e8e8; */
+  height: 55px;
+  overflow: hidden;
+  box-shadow: 0 0 30px #f3f1f1;
+  background-color: #2874F0;
+}
+
+
+@media(max-width:1000px){
+ 
+
+ 
+}
+
+.logo{
+  width: 150px;
+  float: left;
+}
+
+.ant-input-search{
+  width:450px;
+}
+
+.searchbox{
+    margin: 0rem;
+    /* margin-left: 4rem; */
+    width:500px;
+}
+
+.searched__list{
+  background-color: rgb(255, 255, 255);
+  border:1px solid white;
+   z-index:9999;
+   margin-left: 5.8rem;
+   margin-top: 0.8rem;;
+   /* box-shadow: 0px 0px 4px rgb(223, 223, 223); */
+   position: absolute;
+}
+
+.searched__list ul{
+  width:450px;
+}
+
+.searched__list li{
+  list-style-type: none;
+  display: block;
+  padding:0.5rem;
+}
+
+.searched__list li:hover{
+   background-color: rgb(241, 241, 241);
+   cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.recentSearch__image{
+  width:40px;
+  height: 40px;
+}
+
+
+.rightymenu{
+    margin: 4px;
+    background-color:#2874F0 ;
+
+}
+.logo a{
+  display: inline-block;
+  font-size: 20px;
+  padding: 19px 20px;
+  text-transform: capitalize;
+}
+
+
+
+.menuCon .ant-menu-horizontal{
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+.menuCon .leftMenu{
+  float: left;
+}
+.menuCon .rightMenu{
+  float: right;
+}
+
+@media(max-width: 1281px){
+  
+  
+
+  .logbtn{
+    width: 50px;
+    height: 32px;
+    position: relative;
+    font-family: Roboto;
+    /* left: 15px; */
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 5px 50px 30px 30px;
+    font-weight: 400;
+    color: #357CF1;
+    text-decoration: none;
+  }
+}
+
+@media(min-width: 991.98px){
+  .searchbox{
+    width: 520px;
+    margin: 12px;
+    height: 35px;
+    left: 15%;
+    border: none;
+    box-shadow: black ;
+  }
+  
+
+  .logbtn{
+   
+    /* position: relative;
+    left: -90%; */
+    height: 30px;
+    width: 95px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 7px;
+    margin-right: 50px;
+    /* padding: 10px; */
+    font-weight: 500;
+    color: #357CF1;
+    text-decoration: none;
+  }
+  .modified-dropdown{
+    color: white;
+
+  }
+
+  .rightymenu{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    
+
+}
+
+
+
+.ant-dropdown-link{
+    color: white;
+    font-size: 16px;
+    margin-right: 50px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    /* position: relative;
+    left: -50%; */
+
+  }
+
+
+
+
+}
+
+
+@media(max-width: 767px){
+  .barsMenu{
+    display: inline-block;
+  }
+
+  
+
+ 
+  .rightMenu{
+    position: fixed;
+  } 
+  .logo a{
+    margin-left: -20px;
+  }
+  .menuCon .ant-menu-item, .menuCon .ant-menu-submenu-title{
+    padding: 1px 20px;
+  }
+  .logo a{
+    padding: 10px 20px;
+  }
+}
+
+
+
+/* styles of the login modal container */
+
+.login__modal{
+  padding:0;
+}
+
+
+.loginModal__container{
+  height:400px;
+  width: 100%;
+  margin:-1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.loginModal__imageContainer{
+  flex:1 0 50%;
+  background-color: #357CF1;
+  color:white;
+  font-family: Roboto;
+  padding:1rem;
+  background-image: url("http://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_dec4bf.png");
+  background-position: center 85%;
+  background-repeat: no-repeat;
+}
+
+.loginModal__title{
+  font-size: 2rem;;
+}
+
+.loginModal__desc{
+  font-size: 1rem;;
+}
+
+
+
+.loginModal__content{
+  flex:1 0 60%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.login__buttonTitle{
+  display: block;
+  color:black;
+  font-size: 1.5rem;
+  padding:0.5rem;
+}
+
+.login__button{
+  display: block;
+  border:5px solid orange;
+  border-radius: 4px;;
+}
